@@ -1,4 +1,6 @@
 .skillscomponent {
-    width: 30%;
+    width: 35%;
     background-color: #00AB44;
+    padding: 24px 24px;
+    border-radius: 8px;
 }
