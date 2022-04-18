@@ -72,7 +72,7 @@ footer {
     width: 90%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
   }
 
@@ -129,5 +129,90 @@ footer {
     display: flex;
     justify-content: center;
   }
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.125rem;
+  }
+
+  .introductorysection {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 24px auto 40px auto;
+
+  }
+
+  /* .namerolecomponent {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .socialmediacomponent {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .profileskillscomponent {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 56px auto 56px auto;
+  }
+
+  .profilecomponent {
+    width: 90%;
+
+  }
+
+  .skillscomponent {
+    width: 90%;
+    background-color: #00AB44;
+    padding: 24px 24px;
+    border-radius: 8px;
+    margin-top: 48px;
+  }
+
+  .experienceeducationcomponent {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 56px auto 48px auto;
+  }
+
+  .experiencecomponent {
+    width: 90%;
+
+  }
+
+  .educationcomponent {
+    width: 90%;
+  }
+
+  footer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  } */
 
 }
