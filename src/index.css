@@ -90,7 +90,7 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 56px auto 48px auto;
+    margin: 56px auto 56px auto;
   }
 
   .profilecomponent {
@@ -126,6 +126,8 @@ footer {
 
   footer {
     width: 90%;
+    display: flex;
+    justify-content: center;
   }
 
 }
